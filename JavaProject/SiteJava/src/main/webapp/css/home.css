@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f1e6d1;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.boxtop {
+    background-color: #ba8a4c;
+    height: auto;
+    width: 100%;
+    padding: 3px 0px;
+}
+
+.boxtop h5 {
+    color: #ffffff;
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+
+.boxtop h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+
+#menu{
+    background-color: #000000;
+    display: flex;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+#menu .botafogo{
+    
+    display: flex;
+    float: left;
+}
+
+#menu .botafogo img{
+    height: 70px;
+    width: 100%;
+}
+#menu .list{
+    display: flex;
+    float: left; 
+    margin: 0 19%;
+    
+}
+
+#menu ul{
+    padding: 0 20px;
+    list-style-type: none;
+    border-bottom: 1.25px solid #ffffff;
+    
+    
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#menu ul li a:link:hover {
+    border-bottom: 1.5px solid #ffffff;
+    scale: 1.1;
+}
+
+#menu .icons{
+    display: flex;
+    float: left;
+}
+
+#retro {
+    margin: auto;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    padding: 0px 0px;
+
+
+}
+
+#retro .uniretro {
+
+    display: block;
+    margin-top: 2px;
+    align-items: center;
+
+}
+
+#retro h2 {
+    color: #000000;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
